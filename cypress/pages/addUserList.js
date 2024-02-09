@@ -39,7 +39,7 @@ export class addUserList{
     }
     enterDepartment(){
         cy.get(this.weblocators.department).click()
-        cy.get(this.weblocators.clickOpsdept).find().each(($ele,index, list)=>{
+        cy.get(this.weblocators.clickOpsdept).find('Operations').each(($ele,index, list)=>{
 
             if($ele.text()== 'Operations'){
                 cy.wrap.click({ force: true })

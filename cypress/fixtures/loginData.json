@@ -7,6 +7,11 @@
     "password": "Klaar2021"
     },
 
+    "IncorrectLoginData":{
+        "Inemail": "deepa.nayak@gamma.klaar.team",
+        "Inpassword": "123Klaar"
+    },
+
     "Pageverification":{
         "PageTitle": "Workspace Details"
     } 

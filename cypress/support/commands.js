@@ -35,6 +35,16 @@ Cypress.Commands.add('login', (email, password) => {
     
 })
 
+Cypress.Commands.add('Incorrectlogin', (Inemail, Inpassword) => {
+    cy.visit('')
+    cy.get('[data-cy="login-with-klaar-button"]').click()
+    cy.get('#email-field').type(Inemail)
+    cy.get('#password-field').type(Inpassword)
+    cy.get('[data-cy="login-submit-button"]').click()
+    cy.wait(6000)
+    cy.get('[data-cy="settings-nav-menu-button"]').click()
+})
+
 Cypress.Commands.add('setCustomViewport', (width, height) => {
     cy.viewport(width, height);
 })
