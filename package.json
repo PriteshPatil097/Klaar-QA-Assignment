@@ -1,0 +1,23 @@
+{
+  "name": "klaar-qa-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PriteshPatil097/klaar-QA-Assignment.git"
+  },
+  "author": "Pritesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriteshPatil097/klaar-QA-Assignment/issues"
+  },
+  "homepage": "https://github.com/PriteshPatil097/klaar-QA-Assignment#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
